@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "2.2.0">
+
+
+<access origin="*" />
+
+<name>Lanzar Gato</name>
+
+<description>
+App demo de lanzar Gatos Gif
+</description>
+
+<author href="https://example.com" email="you@example.com">
+Dan hanfry
+</author>
+
+</widget>

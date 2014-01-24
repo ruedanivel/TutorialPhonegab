@@ -1,0 +1,101 @@
+
+@import url(http://fonts.googleapis.com/css?family=Averia+Sans+Libre);
+
+
+
+*{border:0; margin:0; padding:0;}
+
+
+html {
+
+	text-align: center;
+	background: #ddd;
+
+}
+
+#idImg {
+
+	width: auto;
+	max-width: 90%;
+
+
+	height: auto;
+	max-height: 70%;
+
+	border-radius: 20px;
+
+	display: table;
+	margin: 0 auto;
+
+}
+
+#boton {
+
+	width: 100%;
+	padding: 5px;
+	font-size: 20px;
+	color:#232323;
+	margin: 0 0 5px 0;
+
+	background: #dd4b39;
+
+}
+
+#boton:active  {
+
+	background: #232323;
+	color:#fff;
+
+}
+
+.top {
+
+	background:rgb(38, 124, 104);
+	color:#fff;
+
+}
+
+button {
+
+	font-family: 'Averia Sans Libre', cursive;
+
+	padding: 5px;
+	font-size: 20px;
+	color:#232323;
+	margin: 0 0 5px 0;
+	border-radius: 10px;
+
+	background: #ddd;
+
+}
+
+button:active  {
+
+	background: #dd4b39;
+	color:#fff;
+
+}
+
+#like {
+
+	width: 250px;
+	height: auto;
+
+
+}
+
+
+.like {
+
+	float:left;
+
+	margin: 10px;
+}
+
+.dlike {
+
+	float:right;
+
+	margin: 10px;
+
+}
