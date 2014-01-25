@@ -14,15 +14,19 @@
  
 <script>
 
-var orientation="portrait";
 
-alert(windows.orientation);
-
+$(window).on("orientationchange",function(){
+  alert(orientationchange);
+});
 
 // Bind an event to window.orientationchange that, when the device is turned,
 // gets the orientation and displays it to on screen.
 $( window ).on( "orientationchange", function( event ) {
+
   $( "#orientation" ).text( "This device is in " + event.orientation + " mode!" );
+
+
+
 });
  
 // You can also manually force this event to fire.
